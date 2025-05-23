@@ -3,12 +3,903 @@
         {
             "id": 1,
             "name": "Laptop Dell XPS 13",
-            "price": 32990
+            "price": 32990.0,
+            "shortDesc": "Laptop mỏng nhẹ, hiệu suất cao từ Dell",
+            "detailDesc": "Laptop Dell XPS 13 sở hữu màn hình 13.3 inch Full HD, viền siêu mỏng, bộ vi xử lý Intel Core i7 thế hệ 11, RAM 16GB, SSD 512GB. Máy có thiết kế cao cấp, nhẹ chỉ 1.2kg, bàn phím thoải mái và thời lượng pin lên đến 12 tiếng, lý tưởng cho người dùng doanh nh",
+            "quantity": 250,
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747844903/uwvy91xdsnbxfittiiis.jpg"
+                },
+                {
+                    "id": 2,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747844904/w6pwqiox6423ihklvywk.jpg"
+                },
+                {
+                    "id": 3,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747844906/sspg49knq8ppqutp1mtt.jpg"
+                },
+                {
+                    "id": 4,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747844907/lxrx7enmjkvh8r0wayst.jpg"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Laptop"
+            },
+            "manufacture": {
+                "id": 1,
+                "name": "Dell"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
         },
         {
             "id": 2,
-            "name": "MacBook Pro 14",
-            "price": 40000
+            "name": "MacBook Pro 14 inch M2",
+            "price": 40000.0,
+            "shortDesc": "MacBook dành cho chuyên nghiệp, chip M2",
+            "detailDesc": "MacBook Pro 14 inch sử dụng chip Apple M2 mạnh mẽ, RAM 16GB, SSD 1TB, màn hình Liquid Retina XDR và thời lượng pin lên tới 17 giờ.",
+            "quantity": 150,
+            "images": [
+                {
+                    "id": 5,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747846663/ijy2bmln0fhli8iqvajy.webp"
+                },
+                {
+                    "id": 6,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747846665/clihtxisvqsvjbfvrf52.webp"
+                },
+                {
+                    "id": 7,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747846667/jvgzgcachjtoen2l069w.webp"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Laptop"
+            },
+            "manufacture": {
+                "id": 2,
+                "name": "Apple"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 3,
+            "name": "ASUS ROG Zephyrus G14",
+            "price": 37990.0,
+            "shortDesc": "Laptop gaming hiệu năng đỉnh từ ASUS",
+            "detailDesc": "Laptop gaming mỏng nhẹ với AMD Ryzen 9, card đồ họa RTX 4060, RAM 16GB, SSD 1TB. Thiết kế thời trang, hiệu năng cao cho game thủ.",
+            "quantity": 99,
+            "images": [
+                {
+                    "id": 8,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/hinh1_hs11gy.webp"
+                },
+                {
+                    "id": 9,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/hinh2_sdlq0x.webp"
+                },
+                {
+                    "id": 10,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/hinh3_t5n7ae.webp"
+                },
+                {
+                    "id": 11,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/hinh4_am6uvk.webp"
+                },
+                {
+                    "id": 144,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747865442/eccithdzp85113wz9ki4.jpg"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Laptop"
+            },
+            "manufacture": {
+                "id": 5,
+                "name": "ASUS"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 4,
+            "name": "HP Envy 13",
+            "price": 23000.0,
+            "shortDesc": "Laptop vỏ kim loại, hiệu năng ổn",
+            "detailDesc": "HP Envy 13 có thiết kế vỏ kim loại sang trọng, CPU Intel i5, RAM 8GB, SSD 512GB, phù hợp với sinh viên và dân văn phòng.",
+            "quantity": 105,
+            "images": [
+                {
+                    "id": 12,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847273/mkgletz68ftgpzewzgwl.jpg"
+                },
+                {
+                    "id": 13,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847275/vtwp3zva9eeoduzdopkh.jpg"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Laptop"
+            },
+            "manufacture": {
+                "id": 4,
+                "name": "HP"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 5,
+            "name": "Lenovo ThinkPad X1 Carbon Gen 10",
+            "price": 42000.0,
+            "shortDesc": "Doanh nhân chọn lựa hàng đầu từ Lenovo",
+            "detailDesc": "ThinkPad X1 Carbon Gen 10 có độ bền quân đội, Intel Core i7 Gen 12, màn hình 14 inch 2.2K, RAM 16GB, SSD 1TB.",
+            "quantity": 200,
+            "images": [
+                {
+                    "id": 14,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847365/ush9yknzscblfl6vkshq.jpg"
+                },
+                {
+                    "id": 15,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847367/gyn5xmgsaajbgxqbvi2v.jpg"
+                },
+                {
+                    "id": 16,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847369/s5vnbqhmdx4d4bc89bgd.jpg"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Laptop"
+            },
+            "manufacture": {
+                "id": 10,
+                "name": "Lenovo"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 6,
+            "name": "Acer Swift 3 OLED",
+            "price": 18900.0,
+            "shortDesc": "Laptop mỏng nhẹ màn hình OLED đẹp",
+            "detailDesc": "Màn hình OLED tuyệt đẹp, AMD Ryzen 5, RAM 8GB, SSD 512GB. Phù hợp cho công việc sáng tạo và học tập.",
+            "quantity": 222,
+            "images": [
+                {
+                    "id": 17,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847526/athk50lid522krithwvv.webp"
+                },
+                {
+                    "id": 18,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847527/scifkkzjplfvx3ysfsug.webp"
+                },
+                {
+                    "id": 19,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847529/gdd4fyefqovfahrgtixw.webp"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Laptop"
+            },
+            "manufacture": {
+                "id": 3,
+                "name": "Acer"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 7,
+            "name": "MSI Modern 15",
+            "price": 16900.0,
+            "shortDesc": "Laptop giá rẻ, nhẹ nhàng cho sinh viên",
+            "detailDesc": "MSI Modern 15 trang bị Intel Core i5 Gen 11, RAM 8GB, SSD 512GB, thiết kế nhẹ và hiện đại, lý tưởng cho sinh viên.",
+            "quantity": 194,
+            "images": [
+                {
+                    "id": 20,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847699/sb5oxwknkaj5dkw5e4ue.jpg"
+                },
+                {
+                    "id": 21,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847701/eama4mdndvx6qyfy6afw.jpg"
+                },
+                {
+                    "id": 22,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847703/cskqicxoyvivjj6j2aos.jpg"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Laptop"
+            },
+            "manufacture": {
+                "id": 9,
+                "name": "MSI"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 8,
+            "name": "Gigabyte Aero 16 Creator",
+            "price": 51990.0,
+            "shortDesc": "Laptop đồ họa chuyên nghiệp cao cấp",
+            "detailDesc": "Dành cho nhà sáng tạo nội dung: Intel i9, RAM 32GB, SSD 1TB, màn hình AMOLED 16 inch chuẩn màu 100% DCI-P3.",
+            "quantity": 181,
+            "images": [
+                {
+                    "id": 23,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847791/tvfcbkm6i8mr34s1yzf5.webp"
+                },
+                {
+                    "id": 24,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847793/hpnzc6ygnovntzdiuzit.webp"
+                },
+                {
+                    "id": 25,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847795/trex5oxozjjen5qpekxk.webp"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Laptop"
+            },
+            "manufacture": {
+                "id": 8,
+                "name": "Aero "
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 9,
+            "name": "Huawei MateBook D15",
+            "price": 15900.0,
+            "shortDesc": "Laptop học tập tiết kiệm từ Huawei",
+            "detailDesc": "Màn hình 15.6 inch Full HD, chip AMD Ryzen 5, RAM 8GB, SSD 256GB. Tối ưu cho học sinh, sinh viên.",
+            "quantity": 78,
+            "images": [
+                {
+                    "id": 26,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847896/rtzubdv3tonmulu6u1fy.webp"
+                },
+                {
+                    "id": 27,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847898/dvdp6wm7lt2ixjsjydsn.webp"
+                },
+                {
+                    "id": 28,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847899/jf7raiymo1xatynlfykb.webp"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Laptop"
+            },
+            "manufacture": {
+                "id": 6,
+                "name": "Huawei"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 10,
+            "name": "Microsoft Surface Laptop 5",
+            "price": 32990.0,
+            "shortDesc": "Laptop cao cấp, tối ưu cho di động",
+            "detailDesc": "Laptop cao cấp từ Microsoft với màn hình cảm ứng 13.5 inch, chip Intel Gen 12, RAM 8GB, SSD 512GB.",
+            "quantity": 180,
+            "images": [
+                {
+                    "id": 29,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747848250/gqxv0lhnfcotudz7izdf.jpg"
+                },
+                {
+                    "id": 30,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747848251/ppxnpzhalmny8re8jyii.jpg"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Laptop"
+            },
+            "manufacture": {
+                "id": 7,
+                "name": "Surface "
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 11,
+            "name": "MacBook Air M2 2023",
+            "price": 27990.0,
+            "shortDesc": "MacBook siêu mỏng, hiệu năng ấn tượng với M2",
+            "detailDesc": "MacBook Air M2 2023 sở hữu chip Apple M2 mạnh mẽ, màn hình Liquid Retina 13.6 inch, RAM 8GB, SSD 256GB. Thiết kế siêu mỏng nhẹ, thời lượng pin lên đến 18 tiếng, thích hợp cho công việc di động.",
+            "quantity": 295,
+            "images": [
+                {
+                    "id": 31,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747848340/abrizeuhte1ngxmhjygo.webp"
+                },
+                {
+                    "id": 32,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747848343/p1riswdati95cs7xl4tm.webp"
+                },
+                {
+                    "id": 33,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747848345/qby3bhl1ozvfthkdrdc8.webp"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Laptop"
+            },
+            "manufacture": {
+                "id": 2,
+                "name": "Apple"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 12,
+            "name": "ASUS Vivobook S14 OLED",
+            "price": 20990.0,
+            "shortDesc": "Laptop OLED mỏng nhẹ, giá sinh viên",
+            "detailDesc": "Vivobook S14 OLED trang bị màn hình OLED rực rỡ 14 inch, Intel Core i5 Gen 12, RAM 8GB, SSD 512GB, thiết kế trẻ trung dành cho sinh viên và dân văn phòng.",
+            "quantity": 187,
+            "images": [
+                {
+                    "id": 34,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747848448/dkilskcax6q9iepiivi5.webp"
+                },
+                {
+                    "id": 35,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747848449/u1cv15tdxt8clwjyuai8.webp"
+                },
+                {
+                    "id": 36,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747848451/x4vyxuacqtufio2slkpw.webp"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Laptop"
+            },
+            "manufacture": {
+                "id": 5,
+                "name": "ASUS"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 13,
+            "name": "HP Spectre x360 14",
+            "price": 37990.0,
+            "shortDesc": "Laptop cảm ứng xoay gập cao cấp",
+            "detailDesc": "Laptop 2 trong 1 cao cấp với màn hình cảm ứng xoay 360 độ, Intel Core i7 Gen 12, RAM 16GB, SSD 1TB. Thiết kế sang trọng, pin lâu và bảo mật vân tay.",
+            "quantity": 120,
+            "images": [
+                {
+                    "id": 37,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747848539/d0z3jatv9ph8ovvixszk.jpg"
+                },
+                {
+                    "id": 38,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747848541/zznutrioilejhu792eng.jpg"
+                },
+                {
+                    "id": 39,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747848543/x4otn9dvqrrcjxk5afy3.jpg"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Laptop"
+            },
+            "manufacture": {
+                "id": 4,
+                "name": "HP"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 14,
+            "name": "Acer Nitro 5 Gaming",
+            "price": 25990.0,
+            "shortDesc": "Laptop gaming hiệu suất cao giá tốt",
+            "detailDesc": "Laptop gaming phổ thông với chip Intel i5, card đồ họa GTX 1650, RAM 8GB, SSD 512GB. Thiết kế tản nhiệt tốt, đèn bàn phím RGB nổi bật.",
+            "quantity": 412,
+            "images": [
+                {
+                    "id": 40,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747848645/lbd4skx0naj2grc3ndhr.webp"
+                },
+                {
+                    "id": 41,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747848647/wp0hztrjirryaopwjjpz.webp"
+                },
+                {
+                    "id": 42,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747848648/nwuvp1hustbuyaej4zsn.webp"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Laptop"
+            },
+            "manufacture": {
+                "id": 3,
+                "name": "Acer"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 15,
+            "name": "ASUS Dual GeForce RTX™ 5060 8GB GDDR7",
+            "price": 9290.0,
+            "shortDesc": "ASUS Dual GeForce RTX™ 5060 8GB GDDR7 – Sức mạnh tối đa cho game thủ và nhà sáng tạo nội dung",
+            "detailDesc": "Card màn hình ASUS Dual GeForce RTX™ 5060 8GB GDDR7 là lựa chọn hoàn hảo cho những ai đang tìm kiếm hiệu năng vượt trội trong tầm giá. Với nhân đồ họa NVIDIA GeForce RTX 5060 mới nhất, bộ nhớ GDDR7 tốc độ cao và khả năng xử lý AI mạnh mẽ, sản phẩm này man",
+            "quantity": 100,
+            "images": [
+                {
+                    "id": 43,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747849686/mbp5dr12dtqhdkbbz8de.webp"
+                },
+                {
+                    "id": 44,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747849692/sovq0d2exyzkxvqfw44o.webp"
+                },
+                {
+                    "id": 45,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747849695/trnzrxudl9ttgllmnkom.webp"
+                }
+            ],
+            "category": {
+                "id": 2,
+                "name": "Linh kiện điện tử"
+            },
+            "manufacture": {
+                "id": 5,
+                "name": "ASUS"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 16,
+            "name": "Intel Core i7-12700K",
+            "price": 9390.0,
+            "shortDesc": "CPU hiệu năng cao cho gaming và đồ họa",
+            "detailDesc": "CPU Intel Core i7-12700K thuộc dòng Alder Lake với 12 nhân 20 luồng, xung nhịp tối đa lên đến 5.0GHz. Hỗ trợ socket LGA1700 và PCIe 5.0, DDR5.",
+            "quantity": 58,
+            "images": [
+                {
+                    "id": 46,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747852006/ubmvwilbtedxpthofqjh.jpg"
+                },
+                {
+                    "id": 47,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747852007/clxcqrtqwzttgnnmkgsn.jpg"
+                },
+                {
+                    "id": 48,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747852009/ecefhnlbzqdf5teaesfs.jpg"
+                }
+            ],
+            "category": {
+                "id": 2,
+                "name": "Linh kiện điện tử"
+            },
+            "manufacture": {
+                "id": 11,
+                "name": "Intel"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 17,
+            "name": "AMD Ryzen 5 5600X",
+            "price": 4990.0,
+            "shortDesc": "CPU tầm trung hiệu năng ổn định",
+            "detailDesc": "Ryzen 5 5600X có 6 nhân 12 luồng, xung nhịp tối đa 4.6GHz. Socket AM4, tương thích tốt với bo mạch chủ B550/X570, tiết kiệm điện năng.",
+            "quantity": 39,
+            "images": [
+                {
+                    "id": 49,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747852215/mfkpwuby4tzxhpuzxjfl.jpg"
+                },
+                {
+                    "id": 50,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747852216/bh3xzkitwfjnldxirpr3.jpg"
+                },
+                {
+                    "id": 51,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747852219/pnzkaxgek3orqffjk7ww.jpg"
+                }
+            ],
+            "category": {
+                "id": 2,
+                "name": "Linh kiện điện tử"
+            },
+            "manufacture": {
+                "id": 12,
+                "name": "AMD"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 18,
+            "name": "Mainboard ASUS TUF Gaming B660M-PLUS",
+            "price": 3790.0,
+            "shortDesc": "Mainboard bền bỉ, hiệu năng ổn định",
+            "detailDesc": "Bo mạch chủ B660M hỗ trợ CPU Intel Gen 12, 4 khe RAM DDR4, khe PCIe 4.0, nhiều cổng kết nối SATA/M.2, hỗ trợ WiFi.\"",
+            "quantity": 59,
+            "images": [
+                {
+                    "id": 52,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747852450/ghr3bsncfefstaipis2y.jpg"
+                },
+                {
+                    "id": 53,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747852452/qhkqc2u0wexfgxzdaeo0.jpg"
+                },
+                {
+                    "id": 54,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747852454/s1bt2ik0eiebmge1wp7g.jpg"
+                }
+            ],
+            "category": {
+                "id": 2,
+                "name": "Linh kiện điện tử"
+            },
+            "manufacture": {
+                "id": 5,
+                "name": "ASUS"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 19,
+            "name": "G.SKILL Ripjaws V 16GB DDR4 3200MHz",
+            "price": 1290.0,
+            "shortDesc": "RAM 16GB bus cao cho máy mạnh",
+            "detailDesc": "Bộ nhớ RAM 16GB bus 3200MHz, tương thích Intel/AMD, thiết kế tản nhiệt nhôm, thích hợp cho đa tác vụ và game.",
+            "quantity": 89,
+            "images": [
+                {
+                    "id": 55,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747852717/g150vjkwxas9p9xjmkjq.webp"
+                },
+                {
+                    "id": 56,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747852719/lj3fzc8db44ylazbldwb.webp"
+                },
+                {
+                    "id": 57,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747852720/ijfe63cga7q6ivykq4zw.webp"
+                }
+            ],
+            "category": {
+                "id": 2,
+                "name": "Linh kiện điện tử"
+            },
+            "manufacture": {
+                "id": 13,
+                "name": "G.SKILL"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 20,
+            "name": "MSI MPG A850GF 850W 80 Plus Gold",
+            "price": 2990.0,
+            "shortDesc": "Nguồn công suất lớn cho build mạnh",
+            "detailDesc": "Nguồn máy tính MSI công suất thực 850W, full modular, chuẩn 80 Plus Gold, dây bọc dù, bảo vệ điện áp và quạt yên tĩnh 135mm.",
+            "quantity": 17,
+            "images": [
+                {
+                    "id": 58,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747853801/wbo5xxpfdgccde0xqihh.webp"
+                },
+                {
+                    "id": 59,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747853803/y79zdsi7tzxkyrediij9.webp"
+                },
+                {
+                    "id": 60,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747853805/oa6lsku3gyzhqskwx9qc.webp"
+                }
+            ],
+            "category": {
+                "id": 2,
+                "name": "Linh kiện điện tử"
+            },
+            "manufacture": {
+                "id": 9,
+                "name": "MSI"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 21,
+            "name": "ASUS ROG Gladius III Wireless",
+            "price": 2490.0,
+            "shortDesc": "Chuột không dây gaming cao cấp từ ASUS",
+            "detailDesc": "Chuột gaming không dây cao cấp từ ASUS ROG, cảm biến 19000 DPI, switch có thể thay thế, kết nối Bluetooth/2.4GHz, LED RGB Aura Sync.",
+            "quantity": 24,
+            "images": [
+                {
+                    "id": 61,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747854702/ckwxqwxngiwt5rhqcee6.jpg"
+                },
+                {
+                    "id": 62,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747854703/vonaw4bfnczpt8zcw3js.jpg"
+                },
+                {
+                    "id": 63,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747854705/vewpqs2gpslrqucmzzyj.jpg"
+                }
+            ],
+            "category": {
+                "id": 3,
+                "name": "Phụ kiện"
+            },
+            "manufacture": {
+                "id": 5,
+                "name": "ASUS"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 22,
+            "name": "ASUS ROG Strix Scope RX Keyboard",
+            "price": 2990.0,
+            "shortDesc": "Bàn phím cơ ASUS ROG siêu bền",
+            "detailDesc": "Bàn phím cơ ASUS ROG sử dụng switch quang học RX, chống nước IP57, LED RGB Aura Sync, thiết kế keycap full-size tối ưu cho FPS.",
+            "quantity": 94,
+            "images": [
+                {
+                    "id": 64,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747854906/mc1najuwokkbaoqkmqsl.jpg"
+                },
+                {
+                    "id": 65,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747854909/acsq5cpax1xjhnen4dkq.jpg"
+                },
+                {
+                    "id": 66,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747854911/umb5cncvki3uauxzof3r.jpg"
+                }
+            ],
+            "category": {
+                "id": 3,
+                "name": "Phụ kiện"
+            },
+            "manufacture": {
+                "id": 5,
+                "name": "ASUS"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 23,
+            "name": "MSI Agility GD70 Mouse Pad",
+            "price": 5900.0,
+            "shortDesc": "Tấm lót chuột lớn cho game thủ MSI",
+            "detailDesc": "Tấm lót chuột MSI GD70 kích thước lớn, bề mặt vải siêu mịn, chống trượt, tối ưu cho chuột DPI cao, thiết kế đỏ đen đặc trưng MSI.",
+            "quantity": 89,
+            "images": [
+                {
+                    "id": 67,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747855234/kkakjljiam2qmjlqr6x5.webp"
+                },
+                {
+                    "id": 68,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747855236/vmrrofhrh5dzz7gzrysb.webp"
+                },
+                {
+                    "id": 69,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747855237/ypg3ul136ofntuo9ji2j.webp"
+                }
+            ],
+            "category": {
+                "id": 3,
+                "name": "Phụ kiện"
+            },
+            "manufacture": {
+                "id": 9,
+                "name": "MSI"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 24,
+            "name": "Intel NUC 13 Extreme Kit",
+            "price": 29990.0,
+            "shortDesc": "PC mini Intel hiệu năng cao",
+            "detailDesc": "Bộ máy tính mini cao cấp từ Intel với khả năng lắp CPU thế hệ 13, hỗ trợ GPU rời, RAM DDR5, SSD NVMe. Phù hợp cho sáng tạo nội dung, chơi game và làm việc chuyên nghiệp.",
+            "quantity": 46,
+            "images": [
+                {
+                    "id": 70,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747855505/crnoacnk6zbd6mus2gda.jpg"
+                },
+                {
+                    "id": 71,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747855507/awctluteysb27ezuhtqo.jpg"
+                },
+                {
+                    "id": 72,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747855509/py3vzw5bvgf2p1b5crby.jpg"
+                }
+            ],
+            "category": {
+                "id": 3,
+                "name": "Phụ kiện"
+            },
+            "manufacture": {
+                "id": 11,
+                "name": "Intel"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        },
+        {
+            "id": 25,
+            "name": "Logitech K380 Bluetooth Keyboard",
+            "price": 8900.0,
+            "shortDesc": "Bàn phím Bluetooth đa thiết bị",
+            "detailDesc": "Bàn phím không dây Bluetooth nhỏ gọn, hỗ trợ đa thiết bị, dùng được với Windows, macOS, iOS, Android.",
+            "quantity": 35,
+            "images": [
+                {
+                    "id": 73,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747855799/bu4jcnrumpxyeptx1tuc.webp"
+                },
+                {
+                    "id": 74,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747855800/byhpdspbhnwvc054eqfm.webp"
+                },
+                {
+                    "id": 75,
+                    "url": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747855802/mgxagy1s1zmilkhbfnom.webp"
+                }
+            ],
+            "category": {
+                "id": 3,
+                "name": "Phụ kiện"
+            },
+            "manufacture": {
+                "id": 14,
+                "name": "Logitech"
+            },
+            "sold": 0,
+            "categoryId": null,
+            "manufactureId": null
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Laptop"
+        },
+        {
+            "id": 2,
+            "name": "Linh kiện điện tử"
+        },
+        {
+            "id": 3,
+            "name": "Phụ kiện"
+        }
+    ],
+    "manufactures": [
+        {
+            "id": 1,
+            "name": "Dell"
+        },
+        {
+            "id": 2,
+            "name": "Apple"
+        },
+        {
+            "id": 3,
+            "name": "Acer"
+        },
+        {
+            "id": 4,
+            "name": "HP"
+        },
+        {
+            "id": 5,
+            "name": "ASUS"
+        },
+        {
+            "id": 6,
+            "name": "Huawei"
+        },
+        {
+            "id": 7,
+            "name": "Surface "
+        },
+        {
+            "id": 8,
+            "name": "Aero "
+        },
+        {
+            "id": 9,
+            "name": "MSI"
+        },
+        {
+            "id": 10,
+            "name": "Lenovo"
+        },
+        {
+            "id": 11,
+            "name": "Intel"
+        },
+        {
+            "id": 12,
+            "name": "AMD"
+        },
+        {
+            "id": 13,
+            "name": "G.SKILL"
+        },
+        {
+            "id": 14,
+            "name": "Logitech"
         }
     ]
 }
