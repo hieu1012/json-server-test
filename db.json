@@ -901,5 +901,159 @@
             "id": 14,
             "name": "Logitech"
         }
+    ],
+    "cart": [
+        {
+            "productId": 1,
+            "productName": "Laptop Dell XPS 13",
+            "price": 32990.0,
+            "quantity": 1,
+            "image": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747844903/uwvy91xdsnbxfittiiis.jpg"
+        },
+        {
+            "productId": 2,
+            "productName": "MacBook Pro 14 inch M2",
+            "price": 40000.0,
+            "quantity": 2,
+            "image": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747846663/ijy2bmln0fhli8iqvajy.webp"
+        },
+        {
+            "productId": 7,
+            "productName": "MSI Modern 15",
+            "price": 16900.0,
+            "quantity": 1,
+            "image": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847699/sb5oxwknkaj5dkw5e4ue.jpg"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "orderNumber": "ORD20240525001",
+            "createdAt": "2025-05-25T14:10:00Z",
+            "status": "COMPLETED",
+            "totalAmount": 80000,
+            "taxAmount": 8000,
+            "finalAmount": 88000,
+            "paymentMethod": "Thanh toán khi nhận hàng",
+            "shippingAddress": "123 Lý Thường Kiệt, Quận 10, TP.HCM",
+            "items": [
+                {
+                    "productId": 1,
+                    "productName": "Laptop Dell XPS 13",
+                    "quantity": 1,
+                    "unitPrice": 32990,
+                    "totalPrice": 32990,
+                    "image": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747844903/uwvy91xdsnbxfittiiis.jpg"
+                },
+                {
+                    "productId": 2,
+                    "productName": "MacBook Pro 14 inch M2",
+                    "quantity": 1,
+                    "unitPrice": 40000,
+                    "totalPrice": 40000,
+                    "image": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747846663/ijy2bmln0fhli8iqvajy.webp"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "orderNumber": "ORD20240523002",
+            "createdAt": "2025-05-23T09:45:00Z",
+            "status": "PENDING",
+            "totalAmount": 16900,
+            "taxAmount": 1690,
+            "finalAmount": 18590,
+            "paymentMethod": "Chuyển khoản ngân hàng",
+            "shippingAddress": "45 Nguyễn Huệ, Quận 1, TP.HCM",
+            "items": [
+                {
+                    "productId": 7,
+                    "productName": "MSI Modern 15",
+                    "quantity": 1,
+                    "unitPrice": 16900,
+                    "totalPrice": 16900,
+                    "image": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747847699/sb5oxwknkaj5dkw5e4ue.jpg"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "orderNumber": "ORD20240520003",
+            "createdAt": "2025-05-20T11:20:00Z",
+            "status": "PROCESSING",
+            "totalAmount": 50990,
+            "taxAmount": 5099,
+            "finalAmount": 56089,
+            "paymentMethod": "Momo",
+            "shippingAddress": "88 Trần Hưng Đạo, Quận 5, TP.HCM",
+            "items": [
+                {
+                    "productId": 3,
+                    "productName": "ASUS ROG Zephyrus G14",
+                    "quantity": 1,
+                    "unitPrice": 37990,
+                    "totalPrice": 37990,
+                    "image": "https://res.cloudinary.com/dzsr8gqhn/image/upload/hinh1_hs11gy.webp"
+                },
+                {
+                    "productId": 15,
+                    "productName": "ASUS Dual GeForce RTX™ 5060 8GB GDDR7",
+                    "quantity": 1,
+                    "unitPrice": 12990,
+                    "totalPrice": 12990,
+                    "image": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747849686/mbp5dr12dtqhdkbbz8de.webp"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "orderNumber": "ORD20240518004",
+            "createdAt": "2025-05-18T08:15:00Z",
+            "status": "CANCELLED",
+            "totalAmount": 9390,
+            "taxAmount": 939,
+            "finalAmount": 10329,
+            "paymentMethod": "Thanh toán khi nhận hàng",
+            "shippingAddress": "12 Lê Duẩn, Quận 1, TP.HCM",
+            "items": [
+                {
+                    "productId": 16,
+                    "productName": "Intel Core i7-12700K",
+                    "quantity": 1,
+                    "unitPrice": 9390,
+                    "totalPrice": 9390,
+                    "image": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747852006/ubmvwilbtedxpthofqjh.jpg"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "orderNumber": "ORD20240515005",
+            "createdAt": "2025-05-15T17:30:00Z",
+            "status": "COMPLETED",
+            "totalAmount": 38880,
+            "taxAmount": 3888,
+            "finalAmount": 42768,
+            "paymentMethod": "ZaloPay",
+            "shippingAddress": "57 Nguyễn Văn Linh, Quận 7, TP.HCM",
+            "items": [
+                {
+                    "productId": 14,
+                    "productName": "Acer Nitro 5 Gaming",
+                    "quantity": 1,
+                    "unitPrice": 25990,
+                    "totalPrice": 25990,
+                    "image": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747848645/lbd4skx0naj2grc3ndhr.webp"
+                },
+                {
+                    "productId": 19,
+                    "productName": "G.SKILL Ripjaws V 16GB DDR4 3200MHz",
+                    "quantity": 1,
+                    "unitPrice": 12990,
+                    "totalPrice": 12990,
+                    "image": "https://res.cloudinary.com/dzsr8gqhn/image/upload/v1747852717/g150vjkwxas9p9xjmkjq.webp"
+                }
+            ]
+        }
     ]
 }
